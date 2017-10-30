@@ -135,19 +135,45 @@ a {
 }
 
 form {
-  color: rgb(00, 43, 69);
+  background-color: white;
+	margin: 2em;
 }
 
 fieldset {
   border: none;
+	margin: 1em;
 }
 
-form button {
-  background-color: white;
-  color: rgb(27, 87, 134);
-  font-family: dfds-bold;
-  text-transform: uppercase;
-  font-size: 1.5em;
+fieldset input {
+	float: right;
+}
+
+legend {
+	font-family: dfds-bold;
+	color: rgb(110, 116, 119);
+	margin: 1em;
+	padding-top: 1em;
+	font-size: 1.5em;
+}
+
+label {
+	font-family: lucida-grande;
+	padding: 1em;
+	display: block;
+}
+
+form a{
+	background-color: rgb(246, 134, 31);
+	font-family: dfds-bold;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+	margin: 1em;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
 }
 
 main > button:nth-of-type(1){
@@ -233,6 +259,15 @@ main p {
 	color: white;
 }
 
+.imgsmart {
+	width: 100%;
+	height: auto;
+}
+
+.imgdesktop {
+	display: none;
+}
+
 @media (min-width: 40em){
 	aside section{
 		display: flex;
@@ -253,6 +288,15 @@ main img {
 	width: 50%;
 	height: 50%;
 	clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+form {
+	margin-bottom: auto;
+}
+
+.login {
+	display: flex;
+	justify-content: center;
 }
 
 }
@@ -297,6 +341,16 @@ main img {
 
 		header {
 			display: inline;
+		}
+
+		.imgsmart {
+			display: none;
+		}
+
+		.imgdesktop {
+			display: block;
+			width: 100%;
+			height:auto;
 		}
 
 }
