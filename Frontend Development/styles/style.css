@@ -89,7 +89,7 @@ article a {
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
 	padding-right: 0.3em;
-  clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 header h1{
@@ -287,7 +287,7 @@ div {
 main img {
 	width: 50%;
 	height: 50%;
-	clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
 }
 
 form {
@@ -297,6 +297,10 @@ form {
 .login {
 	display: flex;
 	justify-content: center;
+}
+
+article p {
+	margin-top: auto;
 }
 
 }
