@@ -1,0 +1,377 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+a, abbr,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, ol, ul, li,
+fieldset, form, label, legend, caption, article, aside, embed,
+figure, figcaption, footer, header,
+menu, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*eigen css */
+
+@font-face {
+  font-family: "dfds-bold";
+  src: url("../assets/fonts/dfds-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "dfds-light";
+  src: url("../assets/fonts/dfds-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "lucida-grande";
+  src: url("../assets/fonts/lucida-grande.ttf") format("truetype");
+}
+
+body {
+  background-color: rgb(238, 240, 241);
+}
+
+article {
+  background-color: white;
+  margin: 2em;
+}
+
+article p {
+  font-family: lucida-grande;
+  color: rgb(27, 87, 134);
+  padding: 1.75em;
+}
+
+article a {
+  background-color: rgb(246, 134, 31);
+  color: white;
+  float: right;
+  font-family: dfds-bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  border-style: none;
+  margin-top: -1.5em;
+  display: block;
+  padding-left: 1.25em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-right: 0.3em;
+  -webkit-clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+header h1{
+  background-color: white;
+  color: rgb(00, 43, 69);
+  font-family: dfds-bold;
+  font-size: 1.3em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  padding-left: 0.5em;
+}
+
+header img{
+  margin-top: -3.5em;
+	float: right;
+	margin-right: 1em;
+}
+
+h2 {
+  font-family: dfds-bold;
+  color: rgb(00, 43, 69);
+  font-size: 1.8em;
+  margin-top: 1em;
+	margin-bottom: 1em;
+  text-align: center;
+  text-transform: uppercase;
+	display: block;
+}
+
+h3 {
+  font-family: dfds-bold;
+  background-color: rgb(00, 43, 69);
+  color: white;
+  font-size: 1.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.3em;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  background-color: white;
+	margin: 2em;
+}
+
+fieldset {
+  border: none;
+	margin: 1em;
+}
+
+fieldset input {
+	float: right;
+}
+
+legend {
+	font-family: dfds-bold;
+	color: rgb(110, 116, 119);
+	margin: 1em;
+	padding-top: 1em;
+	font-size: 1.5em;
+}
+
+label {
+	font-family: lucida-grande;
+	padding: 1em;
+	display: block;
+}
+
+form a{
+	background-color: rgb(246, 134, 31);
+	font-family: dfds-bold;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 3em;
+	padding-right: 3em;
+	margin: 1em;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+
+.likebtn {
+	background-color: rgb(246, 134, 31);
+  color: white;
+  font-family: dfds-bold;
+  text-transform: uppercase;
+	border-style: none;
+	margin: 1em;
+	font-size: 1.5em;
+}
+
+main > button:nth-of-type(1){
+	background-color: rgb(246, 134, 31);
+  color: white;
+  font-family: dfds-bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  border-style: none;
+  margin-top: -1.5em;
+  display: block;
+	float: right;
+	margin-right: 2em;
+}
+
+main > button:nth-of-type(2) {
+	background-color: rgb(246, 134, 31);
+  color: white;
+  font-family: dfds-bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  border-style: none;
+  margin-top: -1.5em;
+  display: block;
+	margin-left: 2em;
+}
+
+main > a:nth-of-type(1){
+	background-color: rgb(246, 134, 31);
+	color: white;
+	font-family: dfds-bold;
+	font-size: 1.06em;
+	text-transform: uppercase;
+	padding: 0.25em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: block;
+	text-align: center;
+	max-width: 8em;
+}
+
+header {
+	background-color: white;
+}
+
+header input {
+	display: none;
+}
+
+header button {
+	display: none;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	font-family: dfds-light;
+	color: rgb(27, 87, 134);
+}
+
+
+nav a:hover,
+nav a:focus {
+	background-color: rgb(130, 188, 229);
+}
+
+article img {
+	width: 100%;
+	height: auto;
+}
+
+main article {
+	background-color: rgba(189, 13, 46, 0.8);
+
+}
+
+main p {
+	color: white;
+}
+
+.imgsmart {
+	width: 100%;
+	height: auto;
+}
+
+.imgdesktop {
+	display: none;
+}
+
+.nolikes {
+	font-family: dfds-light;
+	margin: 3em;
+	text-align: center;
+
+}
+
+@media (min-width: 40em){
+	aside section{
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: nowrap;
+		}
+
+aside article {
+	margin-top: auto;
+}
+
+div {
+	display: flex;
+	justify-content: flex-start;
+}
+
+main img {
+	width: 50%;
+	height: 50%;
+	-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+form {
+	margin-bottom: auto;
+}
+
+.login {
+	display: flex;
+	justify-content: center;
+}
+
+article p {
+	margin-top: auto;
+}
+
+}
+
+@media (min-width: 60em){
+	header img {
+			display: none;
+		}
+
+		header input,
+		header button {
+			display: block;
+		}
+
+		header section{
+			display: flex;
+			justify-content: flex-end;
+			margin-top: -2em;
+		}
+
+		li{
+			margin-right: 5em;
+		}
+
+		section button {
+			font-family: dfds-bold;
+			color: white;
+			background-color: rgb(00, 43, 69);
+			border-style: none;
+			padding: 0.5em;
+			border-radius: 0.2em;
+			text-transform: uppercase;
+			margin-right: 2em;
+			margin-bottom: 1em;
+
+		}
+
+		section input {
+			margin-bottom: 1em;
+			margin-right: 0.5em;
+		}
+
+		header {
+			display: inline;
+		}
+
+		.imgsmart {
+			display: none;
+		}
+
+		.imgdesktop {
+			display: block;
+			width: 100%;
+			height:auto;
+		}
+
+}
